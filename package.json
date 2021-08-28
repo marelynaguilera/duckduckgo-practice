@@ -1,0 +1,36 @@
+{
+  "name": "duckduckgo-practice",
+  "version": "1.0.0",
+  "description": "Test example using a response from duckduckgo",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marelynaguilera/duckduckgo-practice.git"
+  },
+  "keywords": [
+    "test",
+    "duckduckgo"
+  ],
+  "author": "marelynaguilera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marelynaguilera/duckduckgo-practice/issues"
+  },
+  "homepage": "https://github.com/marelynaguilera/duckduckgo-practice#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.11.0",
+    "@wdio/local-runner": "^7.11.0",
+    "@wdio/mocha-framework": "^7.11.0",
+    "@wdio/spec-reporter": "^7.10.1",
+    "chromedriver": "^92.0.1",
+    "prettier": "^2.3.2",
+    "wdio-chromedriver-service": "^7.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "expect.js": "^0.3.1"
+  }
+}
